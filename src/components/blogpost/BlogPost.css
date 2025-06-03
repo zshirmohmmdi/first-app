@@ -1,0 +1,34 @@
+.blog-post {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 3rem;
+  margin: 2rem 8rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  color: #333;
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+ .post-title:hover {
+  color: #646cff;
+ }
+
+.post-content {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+} 
+
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+

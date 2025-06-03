@@ -1,0 +1,44 @@
+.about-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    direction: ltr;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .about-content .about-title {
+    color: #333;
+    margin-bottom: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  .about-content .about-title:hover {
+    color: #646cff;
+  }
+  
+  .about-content .about-subtitle {
+    color: #444;
+    margin: 1.5rem 0 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .about-content .about-subtitle:hover {
+    color: #646cff;
+  }
+  
+  .about-content .about-text {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-content .about-list {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    padding-right: 0;
+  }
+  
+  .about-content li {
+    margin-bottom: 0.5rem;
+  }
